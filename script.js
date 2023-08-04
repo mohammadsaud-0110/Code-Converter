@@ -1,4 +1,7 @@
 const URL = "https://code-converter-openai.onrender.com";
+
+fetch(`${URL}`).then((res)=>{return res.json()}).then((data)=>{console.log(data);}). catch((err)=>{console.log(err);});
+
 async function convertCode() {
     const code = document.getElementById('code').value;
     const language = document.getElementById('language').value;
