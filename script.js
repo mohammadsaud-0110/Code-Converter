@@ -1,4 +1,4 @@
-const URL = "http://localhost:3600";
+const URL = "https://code-converter-openai.onrender.com";
 async function convertCode() {
     const code = document.getElementById('code').value;
     const language = document.getElementById('language').value;
